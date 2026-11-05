@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { ArrowRight, ArrowUpRight } from '@lucide/vue'
-import { whatsappUrl } from '../utils/whatsapp'
+
+defineEmits<{
+  contact: [messageTemplate: string]
+}>()
 </script>
 
 <template>
@@ -22,13 +25,12 @@ import { whatsappUrl } from '../utils/whatsapp'
       <a href="#tentang">Tentang kami</a>
     </nav>
 
-    <a
+    <button
       class="header-cta"
-      :href="whatsappUrl('Halo Mitra.net, saya ingin bertanya tentang layanan internet.')"
-      target="_blank"
-      rel="noopener noreferrer"
+      type="button"
+      @click="$emit('contact', 'Halo Mitra.net, saya ingin bertanya tentang layanan internet.')"
     >
       Hubungi kami <ArrowUpRight :size="16" aria-hidden="true" />
-    </a>
+    </button>
   </header>
 </template>

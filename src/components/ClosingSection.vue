@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { ArrowRight } from '@lucide/vue'
-import { whatsappUrl } from '../utils/whatsapp'
+
+defineEmits<{
+  contact: [messageTemplate: string]
+}>()
 </script>
 
 <template>
@@ -11,14 +14,13 @@ import { whatsappUrl } from '../utils/whatsapp'
       <h2 id="closing-title">Yuk, berlangganan<br />sekarang!</h2>
       <p>Mulai langkah Anda menuju koneksi yang lebih nyaman. Tim Mitra.net siap membantu.</p>
     </div>
-    <a
+    <button
       class="button button-light"
-      :href="whatsappUrl('Halo Mitra.net, saya ingin berlangganan internet. Mohon informasikan ketersediaan layanan di area saya.')"
-      target="_blank"
-      rel="noopener noreferrer"
+      type="button"
+      @click="$emit('contact', 'Halo Mitra.net, saya ingin berlangganan internet. Mohon informasikan ketersediaan layanan di area saya.')"
     >
       Hubungi kami <ArrowRight :size="17" aria-hidden="true" />
-    </a>
+    </button>
     <div class="closing-caption">PT MULTIMEDIA INTERNET NETWORK <span>•</span> RESMI &amp; BERIZIN</div>
   </section>
 </template>
