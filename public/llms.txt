@@ -1,0 +1,26 @@
+# Mitra.net
+
+> Mitra.net is the internet service brand of PT Multimedia Internet Network, serving customers from Tungkal Ilir, West Tanjung Jabung, Jambi, Indonesia.
+
+## Website
+
+- [Mitra.net homepage](https://multimediainternetnetwork.com/): Internet packages, company background, FAQs, and contact information.
+- [Sitemap](https://multimediainternetnetwork.com/sitemap.xml): Canonical URL inventory.
+
+## Internet packages
+
+- Standar: 5 Mbps, Rp150.000 per month.
+- Basis: 10 Mbps, Rp210.000 per month.
+- Premium: 20 Mbps, Rp350.000 per month.
+
+Package availability and installation information should be confirmed with Mitra.net.
+
+## Contact
+
+- WhatsApp and telephone: +62 853-4588-1705
+- Email: ptmultimedianetwork@gmail.com
+- Address: Perumahan Permata Hijau Lima, Jl. Ki Hajar Dewantara, Parit 2, Blok A No. 31, Tungkal Ilir, Kabupaten Tanjung Jabung Barat, Jambi 36514, Indonesia.
+
+## Company
+
+PT Multimedia Internet Network began as an RT RW Net in 2019 and became PT Multimedia Internet Network in 2026. The company states that it provides internet services and related information and communication technology solutions.
