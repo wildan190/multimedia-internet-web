@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:multimediainternetnetwork.com:service:mitra-net",
+      "displayName": "Mitra.net Internet Service",
+      "type": "text/html",
+      "url": "https://multimediainternetnetwork.com/",
+      "description": "Informasi layanan internet Mitra.net dari PT Multimedia Internet Network, termasuk paket Standar 5 Mbps, Basis 10 Mbps, Premium 20 Mbps, informasi kontak, dan konfirmasi ketersediaan layanan di Tungkal Ilir, Jambi.",
+      "representativeQueries": [
+        "Apa saja paket internet Mitra.net dan berapa harganya?",
+        "Bagaimana cara menghubungi Mitra.net untuk berlangganan internet?",
+        "Bagaimana cara mengecek ketersediaan layanan internet Mitra.net di Tungkal Ilir?",
+        "Di mana alamat PT Multimedia Internet Network?"
+      ]
+    }
+  ]
+}

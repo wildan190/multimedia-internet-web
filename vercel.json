@@ -4,10 +4,23 @@
   "installCommand": "npm ci",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "rewrites": [
+  "rewrites": {
+    "fallback": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  },
+  "headers": [
     {
-      "source": "/(.*)",
-      "destination": "/"
+      "source": "/.well-known/ard.json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        }
+      ]
     }
   ]
 }
