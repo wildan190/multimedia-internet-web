@@ -4,8 +4,8 @@ import { whatsappUrl } from '../utils/whatsapp'
 
 const address =
   'Perumahan Permata Hijau Lima, Jl. Ki Hajar Dewantara, Parit 2, Tungkal Ilir, Blok A No. 31, Kabupaten Tanjung Jabung Barat, Jambi 36514, Indonesia'
-const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`
-const mapEmbedUrl = `https://maps.google.com/maps?q=${encodeURIComponent(address)}&output=embed`
+const mapUrl = 'https://www.google.com/maps?q=-1.6473509,103.5426974&z=17&hl=en'
+const mapEmbedUrl = 'https://www.google.com/maps?q=-1.6473509,103.5426974&z=17&hl=en&output=embed'
 </script>
 
 <template>
